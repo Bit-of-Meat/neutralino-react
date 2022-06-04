@@ -18,9 +18,10 @@ Install dependencies and NeutralinoJS binaries:
 ```bash
 npm i && neu update
 ```
-Run dev server:
+Run or build app:
 ```bash
-npm run dev
+npm run build # build app
+npm run start # run app in dev mode (need to run build before that)
 ```
 
 ## Credits 💖

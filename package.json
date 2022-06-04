@@ -12,7 +12,7 @@
     "react-scripts": "^5.0.1"
   },
   "scripts": {
-    "start": "concurrently --kill-others \"BROWSER=false react-scripts start\" \"neu run --frontend-lib-dev\"",
+    "start": "concurrently --kill-others \"react-scripts start\" \"neu run --frontend-lib-dev\"",
     "build": "react-scripts build && neu build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"

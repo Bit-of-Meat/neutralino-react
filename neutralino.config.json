@@ -6,7 +6,7 @@
   "url": "/",
   "enableServer": true,
   "enableNativeAPI": true,
-  "tokenSecurity": "none",
+  "tokenSecurity": "one-time",
   "nativeAllowList": [
     "app.*",
     "os.*",
